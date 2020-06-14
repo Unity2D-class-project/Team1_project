@@ -209,7 +209,7 @@ public class CharacterController2D : MonoBehaviour
 					else 
 					{
 						oldWallSlidding = true;
-						m_Rigidbody2D.velocity = new Vector2(-transform.localScale.x * 2, -5);
+						m_Rigidbody2D.velocity = new Vector2(-transform.localScale.x * 2, 0);//-5
 					}
 				}
 
